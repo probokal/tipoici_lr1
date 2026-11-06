@@ -1,0 +1,14 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\WINDOWS\system32> scp mironov@192.168.108.129:/home/mironov/evidence/home_md1.img "D:\загрузки\лр 1\"
+The authenticity of host '192.168.108.129 (192.168.108.129)' can't be established.
+ED25519 key fingerprint is SHA256:xnrcLwXv0O3R08nh7FOEKXHqHjBFZN/QR51cb8jsiYA.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+Please type 'yes', 'no' or the fingerprint:
+Please type 'yes', 'no' or the fingerprint:
+Warning: Permanently added '192.168.108.129' (ED25519) to the list of known hosts.
+mironov@192.168.108.129's password:
+C:\Windows\System32\OpenSSH\scp.exe: open local "D:/\320\267\320\260\320\263\321\200\321\203\320\267\320\272\320\270/\320\273\321\200 1"": No such file or directory
+PS C:\WINDOWS\system32>

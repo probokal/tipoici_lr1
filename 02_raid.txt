@@ -1,0 +1,185 @@
+===== DISK1 =====
+GUID Partition Table (EFI)
+Offset Sector: 0
+Units are in 512-byte sectors
+
+      Slot      Start        End          Length       Description
+000:  Meta      0000000000   0000000000   0000000001   Safety Table
+001:  -------   0000000000   0000002047   0000002048   Unallocated
+002:  Meta      0000000001   0000000001   0000000001   GPT Header
+003:  Meta      0000000002   0000000033   0000000032   Partition Table
+004:  000       0000002048   0000004095   0000002048   
+005:  001       0000004096   0041947135   0041943040   
+006:  002       0041947136   0052432895   0010485760   
+007:  003       0052432896   0073404415   0020971520   
+008:  004       0073404416   0083884031   0010479616   
+009:  -------   0083884032   0083886079   0000002048   Unallocated
+===== DISK2 =====
+GUID Partition Table (EFI)
+Offset Sector: 0
+Units are in 512-byte sectors
+
+      Slot      Start        End          Length       Description
+000:  Meta      0000000000   0000000000   0000000001   Safety Table
+001:  -------   0000000000   0000002047   0000002048   Unallocated
+002:  Meta      0000000001   0000000001   0000000001   GPT Header
+003:  Meta      0000000002   0000000033   0000000032   Partition Table
+004:  000       0000002048   0041945087   0041943040   
+005:  001       0041945088   0052430847   0010485760   
+006:  002       0052430848   0073402367   0020971520   
+007:  003       0073402368   0083884031   0010481664   
+008:  -------   0083884032   0083886079   0000002048   Unallocated
+===== DISK3 =====
+GUID Partition Table (EFI)
+Offset Sector: 0
+Units are in 512-byte sectors
+
+      Slot      Start        End          Length       Description
+000:  Meta      0000000000   0000000000   0000000001   Safety Table
+001:  -------   0000000000   0000002047   0000002048   Unallocated
+002:  Meta      0000000001   0000000001   0000000001   GPT Header
+003:  Meta      0000000002   0000000033   0000000032   Partition Table
+004:  000       0000002048   0041945087   0041943040   
+005:  001       0041945088   0052430847   0010485760   
+006:  002       0052430848   0073402367   0020971520   
+007:  003       0073402368   0083884031   0010481664   
+008:  -------   0083884032   0083886079   0000002048   Unallocated
+===== DISK4 =====
+GUID Partition Table (EFI)
+Offset Sector: 0
+Units are in 512-byte sectors
+
+      Slot      Start        End          Length       Description
+000:  Meta      0000000000   0000000000   0000000001   Safety Table
+001:  -------   0000000000   0000002047   0000002048   Unallocated
+002:  Meta      0000000001   0000000001   0000000001   GPT Header
+003:  Meta      0000000002   0000000033   0000000032   Partition Table
+004:  000       0000002048   0041945087   0041943040   
+005:  001       0041945088   0052430847   0010485760   
+006:  002       0052430848   0073402367   0020971520   
+007:  003       0073402368   0083884031   0010481664   
+008:  -------   0083884032   0083886079   0000002048   Unallocated
+========= /dev/md124 =========
+/dev/md124:
+           Version : 1.2
+     Creation Time : Thu Aug 13 16:43:46 2026
+        Raid Level : raid5
+        Array Size : 15713280 (14.99 GiB 16.09 GB)
+     Used Dev Size : 5237760 (5.00 GiB 5.36 GB)
+      Raid Devices : 4
+     Total Devices : 4
+       Persistence : Superblock is persistent
+
+       Update Time : Sat Aug 15 16:23:38 2026
+             State : clean 
+    Active Devices : 4
+   Working Devices : 4
+    Failed Devices : 0
+     Spare Devices : 0
+
+            Layout : left-symmetric
+        Chunk Size : 512K
+
+Consistency Policy : resync
+
+              Name : ubuntu-server:1
+              UUID : 4b0de125:84875261:719c1c5e:2fe51126
+            Events : 26
+
+    Number   Major   Minor   RaidDevice State
+       0     259        2        0      active sync   /dev/loop0p3
+       1     259        6        1      active sync   /dev/loop1p2
+       2     259       10        2      active sync   /dev/loop2p2
+       4     259       14        3      active sync   /dev/loop3p2
+========= /dev/md125 =========
+/dev/md125:
+           Version : 1.2
+     Creation Time : Thu Aug 13 16:44:00 2026
+        Raid Level : raid10
+        Array Size : 10469376 (9.98 GiB 10.72 GB)
+     Used Dev Size : 5234688 (4.99 GiB 5.36 GB)
+      Raid Devices : 4
+     Total Devices : 4
+       Persistence : Superblock is persistent
+
+       Update Time : Sat Aug 15 16:23:37 2026
+             State : clean 
+    Active Devices : 4
+   Working Devices : 4
+    Failed Devices : 0
+     Spare Devices : 0
+
+            Layout : near=2
+        Chunk Size : 512K
+
+Consistency Policy : resync
+
+              Name : ubuntu-server:3
+              UUID : 869654cc:70f8bfa4:3e216f6f:a7da6fda
+            Events : 27
+
+    Number   Major   Minor   RaidDevice State
+       0     259        4        0      active sync set-A   /dev/loop0p5
+       1     259        8        1      active sync set-B   /dev/loop1p4
+       2     259       12        2      active sync set-A   /dev/loop2p4
+       3     259       16        3      active sync set-B   /dev/loop3p4
+========= /dev/md126 =========
+/dev/md126:
+           Version : 1.2
+     Creation Time : Thu Aug 13 16:43:52 2026
+        Raid Level : raid1
+        Array Size : 10476544 (9.99 GiB 10.73 GB)
+     Used Dev Size : 10476544 (9.99 GiB 10.73 GB)
+      Raid Devices : 4
+     Total Devices : 4
+       Persistence : Superblock is persistent
+
+       Update Time : Sat Aug 15 16:23:38 2026
+             State : clean 
+    Active Devices : 4
+   Working Devices : 4
+    Failed Devices : 0
+     Spare Devices : 0
+
+Consistency Policy : resync
+
+              Name : ubuntu-server:2
+              UUID : a4a5b83c:1d3ee982:23872794:6d9390b7
+            Events : 53
+
+    Number   Major   Minor   RaidDevice State
+       0     259        3        0      active sync   /dev/loop0p4
+       1     259        7        1      active sync   /dev/loop1p3
+       2     259       11        2      active sync   /dev/loop2p3
+       3     259       15        3      active sync   /dev/loop3p3
+========= /dev/md127 =========
+/dev/md127:
+           Version : 1.2
+     Creation Time : Thu Aug 13 16:43:40 2026
+        Raid Level : raid0
+        Array Size : 83816448 (79.93 GiB 85.83 GB)
+      Raid Devices : 4
+     Total Devices : 4
+       Persistence : Superblock is persistent
+
+       Update Time : Thu Aug 13 16:43:40 2026
+             State : readonly 
+    Active Devices : 4
+   Working Devices : 4
+    Failed Devices : 0
+     Spare Devices : 0
+
+            Layout : original
+        Chunk Size : 512K
+
+Consistency Policy : none
+
+              Name : ubuntu-server:0
+              UUID : 5d8a5522:b690259d:2376c89d:27bcbdb2
+            Events : 0
+
+    Number   Major   Minor   RaidDevice State
+       0     259        1        0      active sync   /dev/loop0p2
+       1     259        5        1      active sync   /dev/loop1p1
+       2     259        9        2      active sync   /dev/loop2p1
+       3     259       13        3      active sync   /dev/loop3p1

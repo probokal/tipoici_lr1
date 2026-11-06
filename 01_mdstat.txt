@@ -1,0 +1,14 @@
+Personalities : [raid0] [raid1] [raid4] [raid5] [raid6] [raid10] 
+md124 : active (read-only) raid5 loop3p2[4] loop2p2[2] loop0p3[0] loop1p2[1]
+      15713280 blocks super 1.2 level 5, 512k chunk, algorithm 2 [4/4] [UUUU]
+      
+md125 : active (read-only) raid10 loop3p4[3] loop2p4[2] loop1p4[1] loop0p5[0]
+      10469376 blocks super 1.2 512K chunks 2 near-copies [4/4] [UUUU]
+      
+md126 : active (read-only) raid1 loop3p3[3] loop2p3[2] loop1p3[1] loop0p4[0]
+      10476544 blocks super 1.2 [4/4] [UUUU]
+      
+md127 : active (read-only) raid0 loop3p1[3] loop2p1[2] loop1p1[1] loop0p2[0]
+      83816448 blocks super 1.2 512k chunks
+      
+unused devices: <none>

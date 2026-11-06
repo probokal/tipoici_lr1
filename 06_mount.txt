@@ -1,0 +1,1 @@
+/dev/md124 on /mnt/lr1 type ext4 (ro,relatime,norecovery,stripe=384)

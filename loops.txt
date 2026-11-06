@@ -1,0 +1,4 @@
+1 /dev/loop0
+2 /dev/loop1
+3 /dev/loop2
+4 /dev/loop3

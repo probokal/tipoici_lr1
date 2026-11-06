@@ -1,0 +1,16 @@
+inode: 1234
+Not Allocated
+Group: 0
+Generation Id: 0
+uid / gid: 0 / 0
+mode: ----------
+size: 0
+num of links: 0
+
+Inode Times:
+Accessed:	0000-00-00 00:00:00 (UTC)
+File Modified:	0000-00-00 00:00:00 (UTC)
+Inode Modified:	0000-00-00 00:00:00 (UTC)
+File Created:	0000-00-00 00:00:00 (UTC)
+
+Direct Blocks:

@@ -1,0 +1,5 @@
+nohup: ignoring input
+dd: error reading '/dev/': Is a directory
+0+0 records in
+0+0 records out
+0 bytes copied, 4.8457e-05 s, 0.0 kB/s
